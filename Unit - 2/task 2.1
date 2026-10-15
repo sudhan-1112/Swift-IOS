@@ -1,1 +1,12 @@
+var cart = ["Laptop", "Mouse", "Keyboard"]
+cart.append("Headphones")
+cart.insert("Monitor", at: 1)
+cart.remove(at: 2)
+print("Final Shopping Cart:")
+
+for product in cart {
+    print(product)
+}
+print("Total Items:", cart.count)
+
 
